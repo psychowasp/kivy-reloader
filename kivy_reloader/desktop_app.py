@@ -402,7 +402,7 @@ class DesktopApp(BaseReloaderApp, KakiApp):
             self.apply_state(self.state)  # TODO: Implement state persistence
 
             # Handle Android hot reload if enabled
-            self._handle_android_reload()
+            # self._handle_android_reload()
 
         except Exception as e:
             Logger.exception('Reloader: Error when building app')
